@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Trebuchet MS', 'Georgia', 'Garamond', 'Caimbra', Arial, sans-serif;
+    padding: 0;
+}
+
+h3, h4{
+    margin: .4em 0;
+    font-weight: normal;
+}
+
+.content-header{
+    background-color: #293e49;
+    padding: 1.25em; /*20px*/
+    color: white;
+    font-weight: normal;
+    font-size: 1em;
+    transition: all .8s ease-in-out;
+}
+
+.content-header-div{
+    margin-bottom: 1.5em; /*24px*/
+}
+
+.icon-font{
+    font-size: .8em;
+    color:rgb(158, 158, 158);
+    margin-left: .2em;
+}
+
+.content-header ul{
+    margin: 0 .4em;
+    padding: 0;
+    list-style: none;
+}
+
+.content-header li{
+    padding: .1em;
+    font-size: .9em;
+}
+
+.content-header li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer
+}
+.content-header li a:hover{
+    border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+.div-photo{
+    width: 100%;
+    text-align: center;
+    transition: all .8s ease-in-out;
+}
+
+.div-photo img{
+    width: 3cm;
+    height: 4cm;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.content-main{
+    padding: 1.25em; /*20px*/
+}
+
+.content-main p{
+    margin: 0;
+}
+
+.content-main-article{
+    margin-bottom: 2em;
+}
+
+.content-main-article p{
+    margin-top: .4em;
+}
+
+.content-main-resume{
+    margin-bottom: 1em;
+}
+
+.content-main-others{
+    margin-top: 1em;
+}
+
+.content-main-others ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.local{
+    color: #aaa;
+    font-size: 0.9em;
+}
+
+.content-footer{
+    padding: 1.25em; /*20px*/
+}
+
+.footer-form{
+    width: 100%;
+    text-align: center;
+    margin: 1em 1em;
+}
+
+@media screen and (min-width: 35em){ /* 560px */
+    body{
+        width: 100%;
+    }
+
+    .content-header{
+        position: fixed;
+        top: 0;
+        width: 40%;
+        height: 100%;
+        box-sizing: border-box;
+        transition: all .8s ease-in-out;
+    }
+
+    .content-main, .content-footer{
+        background-color: white;
+        box-sizing: border-box;
+    }
+
+    .content-main{
+        margin-left: 40%;
+        padding-right: 2%;
+    }
+
+    .content-footer{
+        margin-left: 20%;
+    }
+}
+
+@media screen and (min-width: 70em){ /* 1120px */
+    body{
+        width: 60%;
+        margin: auto;
+        background-color: rgb(196, 196, 196);
+    }
+    
+    .content-header{
+        width: 20%;
+    }
+
+    .content-main{
+        margin-left: 20%;
+        padding-left: 15%;
+    }
+}
