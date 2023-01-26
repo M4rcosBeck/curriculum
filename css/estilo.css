@@ -17,6 +17,7 @@ h3, h4{
     font-weight: normal;
     font-size: 1em;
     transition: all .8s ease-in-out;
+    display: relative;
 }
 
 .content-header-div{
@@ -62,6 +63,16 @@ h3, h4{
     border-radius: 5px;
 }
 
+.header-form{
+    width: 100%;
+    text-align: center;
+    margin: 1em 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
 .content-main{
     padding: 1.25em; /*20px*/
 }
@@ -80,6 +91,11 @@ h3, h4{
 
 .content-main-resume{
     margin-bottom: 1em;
+}
+
+.content-main-resume p{
+    padding-bottom: .5em;
+    
 }
 
 .content-main-others{
@@ -112,6 +128,10 @@ h3, h4{
         width: 100%;
     }
 
+    .header-form{
+        display: block;
+    }
+
     .content-header{
         position: fixed;
         top: 0;
@@ -133,6 +153,10 @@ h3, h4{
 
     .content-footer{
         margin-left: 20%;
+    }
+
+    .footer-form{
+        display: none;
     }
 }
 

@@ -1,0 +1,19 @@
+.content-header{
+    color: black;
+}
+
+a{
+    color: black;
+}
+
+a[alt="Perfil do LinkedIn"]:after{
+    content: " · (" attr(href) ")";
+}
+
+.print{
+    display: none;
+}
+
+input{
+    display: none;
+}
