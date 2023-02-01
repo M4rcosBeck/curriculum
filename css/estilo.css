@@ -55,6 +55,7 @@ h3, h4{
     text-align: center;
     transition: all .8s ease-in-out;
     display: none;
+    /* mix-blend-mode: multiply; */
 }
 
 .div-photo img{
