@@ -1,0 +1,45 @@
+@page{
+	size: auto;
+	margin: 2em 1em;
+}
+@print{
+	@page:footer {
+		display: none;
+	}
+
+	@page:header {
+		display: none;
+	}
+}
+
+.content-header{
+    color: black;
+}
+
+.content-header-div{
+    margin-bottom: 0;
+}
+
+.print-margin li:last-child{
+    margin-bottom: 1.5em;
+}
+
+h1{
+    margin-top: 0;
+}
+
+a{
+    color: black;
+}
+
+a[alt="Perfil do LinkedIn"]:after{
+    content: " · (" attr(href) ")";
+}
+
+.print{
+    display: none;
+}
+
+input{
+    display: none;
+}
