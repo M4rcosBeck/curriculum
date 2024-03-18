@@ -18,6 +18,7 @@ h3, h4{
     font-size: 1em;
     transition: all .8s ease-in-out;
     display: relative;
+    overflow: scroll;
 }
 
 .content-header-div{
@@ -44,7 +45,7 @@ h3, h4{
 .content-header li a{
     text-decoration: none;
     color: white;
-    cursor: pointer
+    cursor: pointer;
 }
 .content-header li a:hover{
     border-bottom: 1px solid rgb(194, 194, 194);
@@ -69,7 +70,7 @@ h3, h4{
     width: 100%;
     text-align: center;
     margin: 1em 0;
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     display: none;
