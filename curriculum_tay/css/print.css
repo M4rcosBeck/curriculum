@@ -36,6 +36,10 @@ a[alt="Perfil do LinkedIn"]:after{
     content: " · (" attr(href) ")";
 }
 
+a[alt="Portfolio Github"]:after{
+    content: " · (" attr(href) ")";
+}
+
 .print{
     display: none;
 }
